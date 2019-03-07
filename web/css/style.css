@@ -1,0 +1,386 @@
+
+/*头部、尾部以及其他公共样式*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+/*类名为float_left的左浮  类名为float_right的右浮*/
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+.cear_both{
+	clear: both;
+}
+
+/*↓↓↓头部公共区域↓↓↓*/
+.head{
+    position: fixed;
+    z-index:999;
+	top:0px;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #d8d8d8;
+}
+.head .top{
+	height:80px ;
+	width: 1200px;
+	margin: 0px auto;
+}
+.head .top .logo{
+	float: left;
+	width: 133px;
+	height: 80px;
+	background: url(../img/picture/coteay_logo.png) no-repeat center;
+}
+
+/*悬浮显示城市的区域*/
+.head .top .place{
+	height: 80px;
+	width: 71px;
+	margin-left: 6px;
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    position: relative;
+}
+.head .top .place .chongqing{
+	width: 50px;
+	height: 80px;
+	margin: 0px auto;
+	line-height: 84px;
+	cursor: pointer;
+}
+
+
+/*隐藏的区域鼠标悬停宽高显示*/
+.head .top .place .display{
+	width: 0px;
+	height: 0px;
+	background-color: #fff;
+    overflow-y: scroll;
+    position: relative;
+    border: 1px solid transparent;
+    left: -1px;
+    opacity:0;
+    transition: 0.5s ;
+    transition-property: width height opacity;
+}
+.head .top .place .display li{
+	padding-left: 20px;
+	width: 438px;
+}
+.head .top .place .display li:first-child{
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	border-bottom: 1px solid #DCD4D7;
+}
+.head .top .place .display li span{
+	float: left;
+}
+.head .top .place .display li~li span{
+	width: 20px;
+	height: 20px;
+	background: #EEE;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+}
+.head .top .place .display li~li{
+	margin: 13px 0;
+}
+.head .top .place .display li div{
+    margin-left: 20px;
+	
+}
+.head .top .place .display li div a{
+	display: inline-block;
+    margin-bottom: 8px;  
+    padding: 0px 4px;
+}
+.head .top .place .display li:last-child p{
+    height: auto;
+    width: 50px;
+    font-size: 30px;
+    margin: 0px auto;
+}
+.head .top .place:hover{
+	border-left: 1px solid #DCD4D7;
+    border-right: 1px solid #DCD4D7;
+}
+/*鼠标悬浮在指定区域时触发after产生一条高为1像素宽71像素和背景色一样的白线，并把他定位到边框上形成一个缺口*/
+.head .top .place:hover:after{
+    content: "";
+    width: 71px;
+    height: 1px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 80px;
+    }
+/*鼠标悬停时显示出下拉列表的宽、高、透明度和边框*/
+.head .top .place:hover .display{
+	height: 330px;
+	width: 478px;
+	opacity: 1;
+	border: 1px solid #D8D8D8;
+}
+.head .top .place:hover .triangle{
+	transform: rotate(180deg);
+}
+.head .top .place .display li div a:hover{
+	background-color: #ef4238;
+	color: #FFFFFF;
+}
+
+
+/*利用边框的特性画三角形,宽高为0时边框是以三角形的形式向外延伸，有宽高时为平行四边的形式向外延伸*/
+.head .top .triangle{
+    border-top: 5px solid #666;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: inline-block;
+    margin-left: 3px;	
+    vertical-align: middle;
+    transition: 0.2s all ease;
+}
+
+/*顶部中间区域*/
+.head .top .top_middle{
+	margin-left: 50px;
+}
+.head .top .top_middle li{
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+.head .top .top_middle li a{
+	text-align: center;
+    display:inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+    font-size: 18px;
+    color: #333;
+}
+.head .top .top_middle li a:hover{
+	color: red;
+}
+
+
+
+
+/*APP下载*/
+.head .top .download{
+    width: 132px;
+    height: 80px;
+    margin-left: 50px;
+    color: black;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    /*overflow: hidden;*/
+}
+.head .top .download div{
+    width: 116px;
+    height: 52px;	
+    padding-top: 28px;
+    padding-left: 14px;	
+}
+.head .top .download span:first-child{
+	float: left;
+    display: inline-block;
+    width: 23px;
+    height: 24px;
+    background: url(../img/picture/phone_icon.png) no-repeat;
+}
+/*隐藏的二维码区域*/
+.head .top .download section{
+    width: 130px;
+    height: 165px;
+	background: url(../img/picture/QRcode.png) no-repeat;
+	background-color: #ffffff;
+	background-position: 25px 12px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	border: 1px solid #DCD4D7;
+    border-top: 0;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    display: none;
+}
+.head .top .download section p:first-child{
+	font-size: 14px;
+}
+.head .top .download span:nth-child(2){
+	font-size: 16px;
+}
+.head .top .download section p{
+	position: relative;
+    top: 105px;
+}
+.head .top .download section small{
+	position: relative;
+    top: 110px;
+    right: 4px;
+    color: #999;
+}
+.head .top .download:hover{
+    border-left: 1px solid #DCD4D7;
+    border-right: 1px solid #DCD4D7;
+}
+.head .top .download:hover section{
+	display: block;
+}
+.head .top .download:hover .triangle{
+	transform: rotate(180deg);
+}
+
+
+/*搜索框*/
+.head .top .search{
+	margin: 20px 0px 0px 10px;
+	position: relative;
+}
+.head .top .search input:first-child{
+	height: 38px;
+	width: 198px;
+	background: #faf8fa;
+	padding: 0 40px 0 20px;
+    border: 1px solid #CCC;
+    border-radius: 19px;
+    outline-style: none;
+    overflow: hidden;
+    color: #333;;
+}	
+.head .top .search input:last-child{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #ef4238;
+	background-image: url(../img/picture/search.png);
+	cursor: pointer;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 1px;
+    top: 0px;
+}
+
+/*顶部最右边登录按钮*/
+.head .top .log_in{
+	text-align: center;
+	width: 80px;
+	height: 80px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.head .top .log_in div{
+    padding: 0 10px;
+    width: 58px;
+    height: 80px; 
+    border-bottom: none;
+}
+.head .top .log_in img{
+	margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.head .top .log_in span{
+	position: relative;
+	top: -14px;
+}
+.head .top .log_in section{
+    width: 80px;
+    height: 48px;
+    background: #ffffff;
+    display: none;
+    border: 1px solid transparent;
+    border-top: none;
+}
+.head .top .log_in section a{
+	color: #999;
+	font-size: 13px;
+	display: inline-block;
+    margin-top: 15px;
+}
+.head .top .log_in section a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.head .top .log_in:hover{
+    border-left: 1px solid #DCD4D7;
+    border-right: 1px solid #DCD4D7;	
+}
+.head .top .log_in:hover section{
+	display: block;
+	border: 1px solid #DCD4D7;
+    border-top: none;	
+    position: relative;
+    left: -1px;
+}
+.head .top .log_in:hover .triangle{
+	transform: rotate(180deg);
+}
+/*↑↑↑头部公共区域样式结束↑↑↑*/
+
+
+
+/*底部公共样式*/
+.footer {
+	width: auto;
+	height: 212px;
+	background-color: #262426;
+	/*margin-top: 82px;*/
+	font-size: 14px;
+	text-align: center;
+	color: #666;
+}
+.footer .link {
+	padding-top: 50px;
+	color: color: #ef4238;;
+}
+.footer .link a {
+	color: #ef4238;
+}
+.footer .link span {
+	display: inline-block;
+	border-left: 1px solid #444;
+	margin: 0 7px;
+	height: 12px;
+	position: relative;
+	top: 1px;
+}
+ .footer p a {
+	color: #666;
+}
+
+
+
+/*底部外部文件样式*/
+.bottom_frame{
+	margin-top: 82px;
+	display: block;
+}
+/*头部外部文件样式*/
+.header_frame{
+	display: block;
+	position: fixed;
+	top: 0px;
+}
+/*.header_frame:hover{
+	z-index: 999;
+}*/

@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="maoyan">
+    <output-path>D:/serve/apache-tomcat-8.5.35-windows-x64/apache-tomcat-8.5.35/webapps/maoyan</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="maoyan/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maoyan" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/JAR/maoyan.jar/activation.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-io-2.4.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-lang-2.5.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/commons-pool2-2.3.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/jedis-2.7.0.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/jsp-api.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/jstl.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/mail.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/mchange-commons-java-0.2.3.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/mysql-connector-java-5.1.47-bin.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/servlet-api.jar" />
+          <element id="file-copy" path="D:/JAR/maoyan.jar/standard.jar" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web/admin" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/css" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/fonts" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/img" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/js" />
+    </root>
+  </artifact>
+</component>

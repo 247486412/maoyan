@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id ="UserDao" class="com.maoyan.dao.daoImpl.UserDaoImpl"/>
+    <bean id ="CategoryDao" class="com.maoyan.dao.daoImpl.CategoryDaoImpl"/>
+    <bean id ="TypeDao" class="com.maoyan.dao.daoImpl.TypeDaoImpl"/>
+    <bean id ="YearDao" class="com.maoyan.dao.daoImpl.YearDaoImpl"/>
+    <bean id ="AreaDao" class="com.maoyan.dao.daoImpl.AreaDaoImpl"/>
+    <bean id ="CreditsDao" class="com.maoyan.dao.daoImpl.CreditsDaoImpl"/>
+</beans>
