@@ -1,4 +1,4 @@
-package com.maoyan.web.servlet;
+package com.maoyan.web.adminServlet;
 
 import com.maoyan.entity.Area;
 import com.maoyan.service.AreaService;

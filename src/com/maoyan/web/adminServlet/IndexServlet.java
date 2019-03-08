@@ -1,4 +1,4 @@
-package com.maoyan.web.servlet;
+package com.maoyan.web.adminServlet;
 
 import com.maoyan.web.base.BaseServlet;
 

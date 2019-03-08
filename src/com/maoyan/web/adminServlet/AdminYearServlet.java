@@ -1,4 +1,4 @@
-package com.maoyan.web.servlet;
+package com.maoyan.web.adminServlet;
 
 import com.maoyan.entity.Year;
 import com.maoyan.service.YearService;

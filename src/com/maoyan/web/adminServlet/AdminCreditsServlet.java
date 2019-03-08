@@ -1,4 +1,4 @@
-package com.maoyan.web.servlet;
+package com.maoyan.web.adminServlet;
 
 import com.maoyan.entity.Credits;
 import com.maoyan.service.CreditsService;
@@ -9,7 +9,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.sql.SQLException;
-import java.util.List;
 
 @WebServlet(name = "AdminCreditsServlet",urlPatterns = "/AdminCreditsServlet")
 public class AdminCreditsServlet extends BaseServlet {
