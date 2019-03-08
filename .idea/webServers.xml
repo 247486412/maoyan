@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="01382fd5-6dbb-4348-85ce-cfec2b22087a" name="maoyan" url="http://47.102.98.170">
-        <fileTransfer host="47.102.98.170" port="22" accessType="SFTP">
+        <fileTransfer host="47.102.98.170" port="22" rootFolder="/home/xm1/java/apache-tomcat-8.5.38/webapps/maoyan" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

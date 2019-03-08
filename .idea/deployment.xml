@@ -5,7 +5,7 @@
       <paths name="maoyan">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/xm1/java/apache-tomcat-8.5.38/webapps/maoyan" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/xm1/java/apache-tomcat-8.5.38/webapps/maoyan" local="D:/serve/apache-tomcat-8.5.35-windows-x64/apache-tomcat-8.5.35/webapps/maoyan" web="/" />
           </mappings>
         </serverdata>
       </paths>
