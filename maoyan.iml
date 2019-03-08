@@ -30,27 +30,6 @@
       <library>
         <CLASSES>
           <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
-          <root url="jar://D:/JAR/maoyan.jar/activation.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/c3p0-0.9.1.2.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-beanutils-1.8.3.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-collections-3.2.1.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-dbutils-1.4.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-lang-2.5.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-logging-1.1.1.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-pool2-2.3.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/dom4j-1.6.1.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/ezmorph-1.0.6.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/jedis-2.7.0.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/json-lib-2.4-jdk15.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/jsp-api.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/jstl.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/mail.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/mchange-commons-java-0.2.3.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/mysql-connector-java-5.1.47-bin.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/servlet-api.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/standard.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-fileupload-1.2.2.jar!/" />
-          <root url="jar://D:/JAR/maoyan.jar/commons-io-2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
