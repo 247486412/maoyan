@@ -19,7 +19,7 @@
         <input type="hidden" name="id" value="${category.id}">
         <input type="text" class="form-control h5" id="exampleInputName2" name="categoryName" value="${category.name}">
         <%--button默认会是submit需要给type--%>
-        <button type="submit" class="btn btn-default">确定修改</button> <strong class="text-danger h4 " style="font-size: 20px;font-weight: bold ">${msg}</strong>
+        <button type="submit" class="btn btn-success">确定修改</button> <strong class="text-danger h4 " style="font-size: 20px;font-weight: bold ">${msg}</strong>
     </div>
 </form>
 </body>

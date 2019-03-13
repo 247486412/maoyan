@@ -10,200 +10,7 @@
 		<section class="subpage">
 			
 			<!--↓↓↓头部公共区域↓↓↓-->
-			<header class="head">
-				<div class="top">
-					<a class="logo" href="http://maoyan.com/"></a>
-					<!--悬浮显示的城市-->
-					<div class="place float_left">
-					<div class="chongqing">
-						重庆<span class="triangle"></span>
-					</div>
-					
-					<!--隐藏显示的内容-->
-					<ul class="display">
-						<li><span>定位城市：</span>
-							<a href="#">重庆</a></li>
-						<li>
-							<span>A</span><div>
-							<a href="#">阿拉善盟</a>
-							<a href="#">鞍山</a>
-							<a href="#">安庆</a>
-							<a href="#">安阳</a>
-							<a href="#">阿坝</a>
-							<a href="#">安顺</a>
-							<a href="#">安康</a>
-							<a href="#">阿勒泰</a>
-							<a href="#">阿克苏</a>
-							<a href="#">安吉</a>
-							<a href="#">安岳</a>
-							<a href="#">安平</a>
-							<a href="#">安宁</a>
-							<a href="#">安溪</a>
-							<a href="#">安化</a>
-							<a href="#">阿勒泰市</a>
-							<a href="#">安福</a>
-							<a href="#"></a>
-						</div></li>
-						<li>
-							<span>B</span><div>
-							<a href="#">北京</a>
-							<a href="#">保定</a>
-							<a href="#">蚌埠</a>
-							<a href="#">包头</a>
-							<a href="#">本溪</a>
-							<a href="#">白城</a>
-							<a href="#">巴彦淖尔</a>
-							<a href="#">白城</a>
-							<a href="#">亳州</a>
-							<a href="#">滨州</a>
-							<a href="#">巴中</a>
-							<a href="#">北海</a>
-							<a href="#">毕节</a>
-							<a href="#">宝鸡</a>
-							<a href="#">白银</a>
-							<a href="#">滨海</a>
-							<a href="#">宝应</a>
-							<a href="#">北流</a>
-							<a href="#">博爱</a>
-							<a href="#">北碚</a>
-							<a href="#">宝丰</a>
-							<a href="#">泌阳</a>
-							<a href="#">博兴</a>
-							<a href="#">博山</a>
-							<a href="#">璧山</a>
-							<a href="#">彬县</a>
-							<a href="#">宾阳</a>
-							<a href="#">博白县</a>
-							<a href="#">博罗县</a>
-							<a href="#">北镇市</a>
-							<a href="#">泊头市</a>
-							<a href="#">北安市</a>
-							<a href="#">巴彦县</a>
-							<a href="#">滨海</a>
-							<a href="#">安福</a>
-							<a href="#"></a>
-						</div></li>
-						<li>
-							<span>C</span><div>
-							<a href="#">阿拉善盟</a>
-							<a href="#">鞍山</a>
-							<a href="#">安庆</a>
-							<a href="#">安阳</a>
-							<a href="#">阿坝</a>
-							<a href="#">安顺</a>
-							<a href="#">安康</a>
-							<a href="#">阿勒泰</a>
-							<a href="#">阿克苏</a>
-							<a href="#">安吉</a>
-							<a href="#">安岳</a>
-							<a href="#">安平</a>
-							<a href="#">安宁</a>
-							<a href="#">安溪</a>
-							<a href="#">安化</a>
-							<a href="#">阿勒泰市</a>
-							<a href="#">安福</a>
-							<a href="#"></a>
-						</div></li>
-						<li>
-							<span>D</span><div>
-							<a href="#">阿拉善盟</a>
-							<a href="#">鞍山</a>
-							<a href="#">安庆</a>
-							<a href="#">安阳</a>
-							<a href="#">阿坝</a>
-							<a href="#">安顺</a>
-							<a href="#">安康</a>
-							<a href="#">阿勒泰</a>
-							<a href="#">阿克苏</a>
-							<a href="#">安吉</a>
-							<a href="#">安岳</a>
-							<a href="#">安平</a>
-							<a href="#">安宁</a>
-							<a href="#">安溪</a>
-							<a href="#">安化</a>
-							<a href="#">阿勒泰市</a>
-							<a href="#">安福</a>
-							<a href="#"></a>
-						</div></li>
-						<li>
-							<span>E</span><div>
-							<a href="#">北京</a>
-							<a href="#">保定</a>
-							<a href="#">蚌埠</a>
-							<a href="#">包头</a>
-							<a href="#">本溪</a>
-							<a href="#">白城</a>
-							<a href="#">巴彦淖尔</a>
-							<a href="#">白城</a>
-							<a href="#">亳州</a>
-							<a href="#">滨州</a>
-							<a href="#">巴中</a>
-							<a href="#">北海</a>
-							<a href="#">毕节</a>
-							<a href="#">宝鸡</a>
-							<a href="#">白银</a>
-							<a href="#">滨海</a>
-							<a href="#">宝应</a>
-							<a href="#">北流</a>
-							<a href="#">博爱</a>
-							<a href="#">北碚</a>
-							<a href="#">宝丰</a>
-							<a href="#">泌阳</a>
-							<a href="#">博兴</a>
-							<a href="#">博山</a>
-							<a href="#">璧山</a>
-							<a href="#">彬县</a>
-							<a href="#">宾阳</a>
-							<a href="#">博白县</a>
-							<a href="#">博罗县</a>
-							<a href="#">北镇市</a>
-							<a href="#">泊头市</a>
-							<a href="#">北安市</a>
-							<a href="#">巴彦县</a>
-							<a href="#">滨海</a>
-							<a href="#">安福</a>
-							<a href="#"></a>
-						</div></li>
-						<li><p class="omit">等等...等等...</p></li>
-					</ul>
-					</div>
-					
-					
-					<!--顶部中间区域-->
-					<ul class="top_middle float_left">
-						<li><a href="Home.jsp">首页</a></li>
-						<li><a href="#">电影</a></li>
-						<li><a href="#">影院</a></li>
-						<li><a href="lise.html">榜单</a></li>
-						<li><a href="#">热点</a></li>
-					</ul>
-					<!--APP下载-->
-						<a href="http://maoyan.com/app" class="download float_left">
-							<div>
-							<span></span>
-							<span>APP下载</span>
-							<span class="triangle"></span>
-							</div>
-							<section>
-								<p>扫码下载APP</p>
-								<small>选座更优惠</small>
-							</section>
-						</a>
-					<!--顶部右边搜索区域-->
-					<form class="search float_left" action="#" name="none">
-						<input  type="text" placeholder="找影视剧、影人、影院"/>
-						<input type="submit" value=" " />
-					</form>
-					<!--顶部右边登陆按钮-->
-					<div class="log_in float_right">
-						<div>
-						<img src="img/picture/7dd82a16316ab32c8359debdb04396ef2897.png" />
-						<span class="triangle"></span>
-						</div>
-						<section><a href="#">登陆</a></section> 
-					</div>
-					</div>			
-			</header>	
+			<jsp:include page="header.jsp"></jsp:include>
 		
 			<!--↑↑↑头部公共区域结束↑↑↑-->
 		
@@ -211,7 +18,7 @@
 			<div class="banner">
 				<div class="banner-box">
 					<div class="left-img">
-						<img class="scale" src="img/picture/e27ff51791134dc9cfd72417af9049af197718.jpg" />
+						<img class="scale" src="${path}/img/picture/e27ff51791134dc9cfd72417af9049af197718.jpg" />
 					</div>
 					<div class="right-text">
 					<div class="text">
@@ -225,8 +32,8 @@
 						</ul>
 					</div>
 					<div class="score">
-						<a href="#"><img src="img/热映/xx.png"/><span>想看</span></a>
-						<a href="#"><img src="img/热映/xx2.png"/><span>评分</span></a>
+						<a href="#"><img src="${path}/img/热映/xx.png"/><span>想看</span></a>
+						<a href="#"><img src="${path}/img/热映/xx2.png"/><span>评分</span></a>
 						<div><a href="#">特惠购票</a></div>
 					</div>
 					<div class="star">
@@ -277,19 +84,19 @@
 				<div class="Synopsis">
 					<div class="Synopsis-top">
 					演职人员
-					<a href="#">全部<img src="img/hot_showing/arrow.png"></a>
+					<a href="#">全部<img src="${path}/img/hot_showing/arrow.png"></a>
 					</div>
 					<div class="Synopsis-content">
 						<div class="image-text">
 							<div class="image-text-dy">
 								<p>导演</p>
 								<div class="image">
-									<a class="opacity" href="#"><img src="img/hot_showing/e42c59c4742d8265f996947898fa4c7c44615.jpg" />
+									<a class="opacity" href="#"><img src="${path}/img/hot_showing/e42c59c4742d8265f996947898fa4c7c44615.jpg" />
 									</a>
 									<div><a href="#">落落</a></div>
 								</div>
 								<div class="image">
-									<a class="opacity" href="#"><img src="img/hot_showing/d17ecd308339fc2cfec2a62357c203cb213325.jpg" />
+									<a class="opacity" href="#"><img src="${path}/img/hot_showing/d17ecd308339fc2cfec2a62357c203cb213325.jpg" />
 									</a>
 									<div><a href="#">赵英博</a>
 										<br />
@@ -300,7 +107,7 @@
 							<div class="image-text-dy">
 								<p>演员</p>
 								<div class="image">
-									<a class="opacity" href="#"><img src="img/hot_showing/1677c2a5a5e8f6982448be75511ec474160123.jpg" />
+									<a class="opacity" href="#"><img src="${path}/img/hot_showing/1677c2a5a5e8f6982448be75511ec474160123.jpg" />
 									</a>
 									<div><a href="#">任敏</a>
 										<br />
@@ -308,7 +115,7 @@
 									</div>
 								</div>
 								<div class="image">
-									<a class="opacity" href="#"><img src="img/hot_showing/6bd2bfff26bbbcba6c879cd200d24dfa159731.jpg" />
+									<a class="opacity" href="#"><img src="${path}/img/hot_showing/6bd2bfff26bbbcba6c879cd200d24dfa159731.jpg" />
 									</a>
 									<div><a href="#">辛云来</a>
 										<br />
@@ -316,7 +123,7 @@
 									</div>
 								</div>
 								<div class="image">
-									<a class="opacity" href="#"><img src="img/hot_showing/5e0811384a9528e6048dfac492a95429207200.jpg" />
+									<a class="opacity" href="#"><img src="${path}/img/hot_showing/5e0811384a9528e6048dfac492a95429207200.jpg" />
 									</a>
 									<div><a href="#"> 章若楠</a></div>
 								</div>
@@ -326,17 +133,17 @@
 					</div>
 						<div class="Synopsis-top">
 					图集
-					<a href="#">全部<img src="img/hot_showing/arrow.png"></a>
+					<a href="#">全部<img src="${path}/img/hot_showing/arrow.png"></a>
 					   </div>
 					<div class=" Synopsis-content">
 					
 					   <div class="Synopsis-atlas">
-					   	<div class="image-1"><img class="scale" src="img/hot_showing/ca7e8d0997fc991310002abbdfa2a0872906779.jpg"/></div>
-					   	<div class="image"><img class="scale" src="img/hot_showing/bbeffc41be937cc407a2028ebabf59922857426.jpg"/>
-					   	<img class="scale" src="img/hot_showing/1aff1a85c8bf207352911416b13eeccd2778366.jpg"/>
+					   	<div class="image-1"><img class="scale" src="${path}/img/hot_showing/ca7e8d0997fc991310002abbdfa2a0872906779.jpg"/></div>
+					   	<div class="image"><img class="scale" src="${path}/img/hot_showing/bbeffc41be937cc407a2028ebabf59922857426.jpg"/>
+					   	<img class="scale" src="${path}/img/hot_showing/1aff1a85c8bf207352911416b13eeccd2778366.jpg"/>
 					   	</div>
-					   	 <div class="image"><img class="scale" src="img/hot_showing/22d55fb0cb0ebfa3db24a51aaefcb4e33555499.jpg"/>
-					   	<img class="scale" src="img/hot_showing/fb62ba4556d97041496353e7df85ae254491826.jpg"/>
+					   	 <div class="image"><img class="scale" src="${path}/img/hot_showing/22d55fb0cb0ebfa3db24a51aaefcb4e33555499.jpg"/>
+					   	<img class="scale" src="${path}/img/hot_showing/fb62ba4556d97041496353e7df85ae254491826.jpg"/>
 					   	</div>
 					   	<div style="clear: both;"></div>
 					   </div>
@@ -351,7 +158,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/486d0344a98a2719158920f8e511230f24498.jpg" />
+					   			<img src="${path}/img/hot_showing/486d0344a98a2719158920f8e511230f24498.jpg" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -398,7 +205,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/62564f8ed56b5ac4ccd6e61b4d9a1c41171997.jpg" />
+					   			<img src="${path}/img/hot_showing/62564f8ed56b5ac4ccd6e61b4d9a1c41171997.jpg" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -445,7 +252,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9debdb04396ef2897.png" />
+					   			<img src="${path}/img/hot_showing/9debdb04396ef2897.png" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -491,7 +298,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9debdb04396ef2897.png" />
+					   			<img src="${path}/img/hot_showing/9debdb04396ef2897.png" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -538,7 +345,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9d1a771839ce8ea03918ea6722e9283379778.jpg" />
+					   			<img src="${path}/img/hot_showing/9d1a771839ce8ea03918ea6722e9283379778.jpg" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -585,7 +392,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/3a9c2559468466b683cd6ffd2145f838121997.jpg" />
+					   			<img src="${path}/img/hot_showing/3a9c2559468466b683cd6ffd2145f838121997.jpg" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -632,7 +439,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9debdb04396ef2897.png" />
+					   			<img src="${path}/img/hot_showing/9debdb04396ef2897.png" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -679,7 +486,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/62564f8ed56b5ac4ccd6e61b4d9a1c41171997.jpg" />
+					   			<img src="${path}/img/hot_showing/62564f8ed56b5ac4ccd6e61b4d9a1c41171997.jpg" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -726,7 +533,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9debdb04396ef2897.png" />
+					   			<img src="${path}/img/hot_showing/9debdb04396ef2897.png" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -773,7 +580,7 @@
 					   		<li class="comment-container">
 					   		<div class="portrait-container">
 					   		<div class="head-portrait">
-					   			<img src="img/hot_showing/9debdb04396ef2897.png" />
+					   			<img src="${path}/img/hot_showing/9debdb04396ef2897.png" />
 					   		</div>
 					   		<i class="level-2-icon"></i>
 					   		</div>
@@ -827,7 +634,7 @@
 					<div class="Synopsis-top">相关资讯</div>
 					<div class="right-image-text">
 						<div class="news-item">
-							<div class="news-img"><a href="#"><img class="opacity" src="img/hot_showing/45cc6580ad53c9937a3a3afc65132de6524677.jpg"/></a></div>
+							<div class="news-img"><a href="#"><img class="opacity" src="${path}/img/hot_showing/45cc6580ad53c9937a3a3afc65132de6524677.jpg"/></a></div>
 							<div class="news-main">
 								<div class="news-top">
 									<a href="#">《悲伤逆流成河》发校园路演特辑，感人剧情引观众泪撒现场</a>
@@ -844,7 +651,7 @@
 							<div style="clear: both;"></div>
 						</div>
 						<div class="news-item">
-							<div class="news-img"><a href="#"><img class="opacity" src="img/hot_showing/f10c96a1c41249b64dfe4336d915618c1704610.jpg"/></a></div>
+							<div class="news-img"><a href="#"><img class="opacity" src="${path}/img/hot_showing/f10c96a1c41249b64dfe4336d915618c1704610.jpg"/></a></div>
 							<div class="news-main">
 								<div class="news-top">
 									<a href="#">《悲伤逆流成河》发插曲MV，房东的猫深情献唱《给妈妈》</a>
@@ -861,7 +668,7 @@
 							<div style="clear: both;"></div>
 						</div>
 						<div class="news-item">
-							<div class="news-img"><a href="#"><img src="img/hot_showing/loading_2.e3d934bf.png"/></a></div>
+							<div class="news-img"><a href="#"><img src="${path}/img/hot_showing/loading_2.e3d934bf.png"/></a></div>
 							<div class="news-main">
 								<div class="news-top">
 									<a href="#">电影《悲伤逆流成河》中秋票房破亿，演员任敏回应易遥开放式结局</a>
@@ -884,36 +691,36 @@
 						<div class="Synopsis-top">相关电影</div>
 						<div class="right-movies-content">
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/92e430793e0e8a83a78ccc6530adbf42900591.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/92e430793e0e8a83a78ccc6530adbf42900591.jpg"/></a></div>
 								<div class="movies-text"><a href="#">八月未央</a></div>
 								<div class="movies-score">暂无评分</div>
 							</div>
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/5ebdcec94409690ba6885c93231696cd338263.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/5ebdcec94409690ba6885c93231696cd338263.jpg"/></a></div>
 								<div class="movies-text"><a href="#">双生</a></div>
 								<div class="movies-score">
 									<i class="i2">暂无评分</i>
 								</div>
 							</div>
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/deb2254769fd32087c3d2f0f2d642a5729253.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/deb2254769fd32087c3d2f0f2d642a5729253.jpg"/></a></div>
 								<div class="movies-text"><a href="#">七月重新爱上你</a></div>
 								<div class="movies-score">暂无评分</div>
 							</div>
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/2846bbd6d514c026e59fe853c889a8c7747094.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/2846bbd6d514c026e59fe853c889a8c7747094.jpg"/></a></div>
 								<div class="movies-text"><a href="#">猫先生与猪小姐</a></div>
 								<div class="movies-score">暂无评分</div>
 							</div>
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/7943fcec6a2998a26fcaa7f073854bad179383.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/7943fcec6a2998a26fcaa7f073854bad179383.jpg"/></a></div>
 								<div class="movies-text"><a href="#">A测试</a></div>
 								<div class="movies-score"><i></i>
 									<i class="i2">暂无评分</i>
 								</div>
 							</div>
 							<div class="movies-1">
-								<div class="movies-img"><a href="#"><img class="rotate" src="img/hot_showing/e2397978421af6a04311f1209dab78d8364790.jpg"/></a></div>
+								<div class="movies-img"><a href="#"><img class="rotate" src="${path}/img/hot_showing/e2397978421af6a04311f1209dab78d8364790.jpg"/></a></div>
 								<div class="movies-text"><a href="#">迷妹罗曼史</a></div>
 								<div class="movies-score">
 									<i class="i2">暂无评分</i>

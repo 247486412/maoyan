@@ -27,42 +27,44 @@
 <div class="table-responsive">
     <table class="table table-bordered text-center table-hover " style="table-layout: fixed;">
         <tr>
-            <th colspan="6">${msg}</th>
+            <th colspan="5">${msg}</th>
             <th>
-                <button id="deleteAll" type="button" class="btn btn-danger" value="${creditsMap["id"]["id"]}">全部清除
+                <a class="add" href="${path}/AdminPictureServlet?method=addPictureUI&id=${pictureList[0].movie_id}">
+                    <button type="button" class="btn btn-primary">上传</button>
+                </a>
+            </th>
+            <th>
+                <button id="deleteAll" type="button" class="btn btn-danger" value="${pictureList[0].movie_id}">全部清除
                 </button>
             </th>
         </tr>
         <tr class="text-center">
             <th>序号</th>
-            <th>演职人员类型</th>
-            <th colspan="2">名字</th>
+            <th>图片</th>
+            <th>图片名</th>
+            <th>描述</th>
+            <th>大小</th>
             <th>删除</th>
-            <th>修改</th>
-            <th>添加</th>
+            <th>下载</th>
         </tr>
-        <c:forEach items="${creditsMap}" var="credits" begin="1" varStatus="status">
-            <c:forEach items="${credits.value}" var="c">
+        <c:forEach items="${pictureList}" var="picture" varStatus="status">
                 <tr>
                     <td>${status.count}</td>
-                    <td>${c.key}</td>
-                    <td colspan="2">${c.value}</td>
+                    <td><img width="60px" height="60px" src="${path}/${picture.path}"></td>
+                    <td>${picture.name}</td>
+                    <td>${picture.describe}</td>
+                    <td>${picture.size}</td>
                     <td>
-                        <button type="button" class="btn btn-danger deleteCategory" value="${credits.key}">删除
+                        <button type="button" class="btn btn-danger deleteCategory" value="${picture.id}">删除
                         </button>
                     </td>
+
                     <td>
-                        <a href="${path}/AdminCreditsServlet?method=editCreditsUI&id=${creditsMap["id"]["id"]}&type=${credits.key}">
-                            <button type="button" class="btn btn-primary">修改</button>
-                        </a>
-                    </td>
-                    <td>
-                        <a class="add" href="${path}/AdminCreditsServlet?method=addCreditsUI&id=${creditsMap["id"]["id"]}&type=${credits.key}">
-                            <button type="button" class="btn btn-primary">添加</button>
+                        <a href="${path}/AdminPictureServlet?method=download&id=${picture.id}">
+                            <button type="button" class="btn btn-primary">下载</button>
                         </a>
                     </td>
                 </tr>
-            </c:forEach>
         </c:forEach>
     </table>
 </div>
@@ -78,7 +80,7 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label id="confirmDelete" class="control-label">确定要删除该演职人员？</label>
+                    <label id="confirmDelete" class="control-label">确定要删除该图片？</label>
                 </div>
             </div>
             <div class="modal-footer">
@@ -94,11 +96,11 @@
   $(function () {
 
     $(".deleteCategory").click(function () {
-      $("#confirmDelete").text("确定删除该演职人员");
-      var field = $(this).val();
+      $("#confirmDelete").text("确定删除该图片");
+      var id = $(this).val();
       $("#exampleModal").modal('show');
       $("#confirm").click(function () {
-        location.href = "${path}/AdminCreditsServlet?method=deleteCredits&fieldName=" + field+"&id=${creditsMap["id"]["id"]}";
+        location.href = "${path}/AdminPictureServlet?method=deletePicture&id="+id+"&movieId=${pictureList[0].movie_id}";
       });
     });
 
@@ -107,7 +109,7 @@
       var id = $(this).val();
       $("#exampleModal").modal('show');
       $("#confirm").click(function () {
-        location.href = "${path}/AdminCreditsServlet?method=deleteAll&id=" + id;
+        location.href = "${path}/AdminPictureServlet?method=deleteAllPicture&id=" + id;
       });
     });
   });

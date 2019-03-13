@@ -30,6 +30,8 @@ public class EncodingFilter implements Filter {
 		//1.强转
 		HttpServletRequest request=(HttpServletRequest) req;
 		HttpServletResponse response=(HttpServletResponse) resp;
+		request.setCharacterEncoding("utf-8");
+		response.setCharacterEncoding("utf-8");
 		//2.放行
 		chain.doFilter(new MyRequest(request), response);
 	}

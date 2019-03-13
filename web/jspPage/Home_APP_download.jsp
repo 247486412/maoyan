@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>猫眼电影 - 一网打尽好电影</title>
-		<link rel="icon" href="/Cat_Eye/img/picture/cot_eye_icon.jpg " />
-		<link href="css/style.css" type="text/css" rel="stylesheet" />
-		<link href="css/content.css"type="text/css" rel="stylesheet" />
+		<link rel="icon" href="${path}/img/picture/cot_eye_icon.jpg " />
+		<link href="${path}/css/style.css" type="text/css" rel="stylesheet" />
+		<link href="${path}/css/content.css"type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		<section class="App_download">
@@ -67,19 +67,19 @@
 					<p class="red_text">电影原声，抢先试听</p>
 					<h2 class="dark_text">官方授权电影原声，让熟悉的音乐<br />陪你重温动人剧情。</h2>
 					<ul class="play_list">
-						<li><img src="img/picture/5607adf6e892870662a286a8bfa53a8442372.jpg"/>
+						<li><img src="${path}/img/picture/5607adf6e892870662a286a8bfa53a8442372.jpg"/>
 						<h3>高跟鞋先生</h3><span>《高跟鞋先生》电影原声</span>
 						</li>
-						<li><img src="img/picture/0fc3c4907875c49682bc4ed43d47f406692747.jpg"/>
+						<li><img src="${path}/img/picture/0fc3c4907875c49682bc4ed43d47f406692747.jpg"/>
 						<h3>小风玲</h3><span>《年兽大作战》电影原声</span>
 						</li>
-						<li><img src="img/picture/4ee310dfa73b40f3c093211300718598541126.jpg"/>
+						<li><img src="${path}/img/picture/4ee310dfa73b40f3c093211300718598541126.jpg"/>
 						<h3>外面的世界</h3><span>《熊出没之熊心归来》电影原声</span>
 						</li>
-						<li><img src="img/picture/a850b9dc466be1ee6a92cbbbcc04b90613690.jpg"/>
+						<li><img src="${path}/img/picture/a850b9dc466be1ee6a92cbbbcc04b90613690.jpg"/>
 						<h3>π之歌</h3><span>《女汉子真爱公式》电影原声</span>
 						</li>
-						<li><img src="img/picture/3842bfcae5d303ca79f4793cb55871829359.jpg"/>
+						<li><img src="${path}/img/picture/3842bfcae5d303ca79f4793cb55871829359.jpg"/>
 						<h3>Where You Wanna Stay</h3><span>《北京遇上西雅图》电影原声</span>
 						</li>
 					</ul>

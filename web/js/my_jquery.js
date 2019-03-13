@@ -6,6 +6,7 @@ function addDelete(name) {
         "        <button Type=\"button\" class=\"btn btn-default deleteCategory\">删除</button></div> ");
     input.appendTo($("#toForm"));
   });
+
   $("#toForm").on("click", ".deleteCategory", function () {
     $(this).parent().prev("br").remove();
     $(this).parent().remove();

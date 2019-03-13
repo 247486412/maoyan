@@ -12,17 +12,17 @@ $(".banner").slide({
 });
 
 //鼠标悬浮购票改为票以售空，离开改回购票
-function demo(evenl) {
-	alert("没票还点进来是不是傻");
-};
-
-function demo1(evenl) {
-	evenl.innerHTML = '票已售空';
-};
-
-function demo2(evenl) {
-	evenl.innerHTML = '购票';
-};
+// function demo(evenl) {
+// 	alert("没票还点进来是不是傻");
+// };
+//
+// function demo1(evenl) {
+// 	evenl.innerHTML = '票已售空';
+// };
+//
+// function demo2(evenl) {
+// 	evenl.innerHTML = '购票';
+// };
 
 
 //调用此方法得到id

@@ -1,10 +1,14 @@
 package com.maoyan.service;
 
-import com.maoyan.entity.Credits;
-
 import java.sql.SQLException;
-import java.util.List;
+import java.util.Map;
 
 public interface CreditsService {
-  Credits findCredits(String id) throws SQLException;
+  Map findCredits(String id) throws SQLException;
+
+  void deleteAll(String id) throws SQLException;
+
+  void deleteCredits(String id, String fieldName) throws SQLException;
+
+  void addCredits(String id, String names, String type) throws SQLException;
 }

@@ -26,7 +26,7 @@
             </c:forEach>
         </select>
         <%--button默认会是submit需要给type--%>
-        <button type="submit" class="btn btn-default">确定修改</button>
+        <button type="submit" class="btn btn-success">确定修改</button>
         <strong class="text-danger h4 " style="font-size: 20px;font-weight: bold ">${msg}</strong>
     </div>
 </form>

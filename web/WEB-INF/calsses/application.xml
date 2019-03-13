@@ -6,4 +6,6 @@
     <bean id ="YearDao" class="com.maoyan.dao.daoImpl.YearDaoImpl"/>
     <bean id ="AreaDao" class="com.maoyan.dao.daoImpl.AreaDaoImpl"/>
     <bean id ="CreditsDao" class="com.maoyan.dao.daoImpl.CreditsDaoImpl"/>
+    <bean id ="PictureDao" class="com.maoyan.dao.daoImpl.PictureDaoImpl"/>
+    <bean id ="MovieDao" class="com.maoyan.dao.daoImpl.MovieDaoImpl"/>
 </beans>

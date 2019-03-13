@@ -1,18 +1,93 @@
 package com.maoyan.entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Movie {
   private String id;
   private String name;
   private String  picture_id;
+  private Picture picture;
+  private List<Picture> pictureList = new ArrayList<Picture>();
   private int flag;
   private int disable;
   private String type_id;
+  private Type type;
+  private List<Type> typeList = new ArrayList<Type>();
   private String area_id;
+  private Area area;
   private String years_id;
+  private Year year;
   private String credits_id;
+  private Credits credits;
   private String create_time;
-  private int score;
+  private double score;
   private String comment;
+  private String duration;
+
+  public Picture getPicture() {
+	return picture;
+  }
+
+  public void setPicture(Picture picture) {
+	this.picture = picture;
+  }
+
+  public List<Picture> getPictureList() {
+	return pictureList;
+  }
+
+  public void setPictureList(List<Picture> pictureList) {
+	this.pictureList = pictureList;
+  }
+
+  public Type getType() {
+	return type;
+  }
+
+  public void setType(Type type) {
+	this.type = type;
+  }
+
+  public List<Type> getTypeList() {
+	return typeList;
+  }
+
+  public void setTypeList(List<Type> typeList) {
+	this.typeList = typeList;
+  }
+
+  public Area getArea() {
+	return area;
+  }
+
+  public void setArea(Area area) {
+	this.area = area;
+  }
+
+  public Year getYear() {
+	return year;
+  }
+
+  public void setYear(Year year) {
+	this.year = year;
+  }
+
+  public Credits getCredits() {
+	return credits;
+  }
+
+  public void setCredits(Credits credits) {
+	this.credits = credits;
+  }
+
+  public String getDuration() {
+	return duration;
+  }
+
+  public void setDuration(String duration) {
+	this.duration = duration;
+  }
 
   public String getId() {
 	return id;
@@ -94,11 +169,11 @@ public class Movie {
 	this.create_time = create_time;
   }
 
-  public int getScore() {
+  public double getScore() {
 	return score;
   }
 
-  public void setScore(int score) {
+  public void setScore(double score) {
 	this.score = score;
   }
 
@@ -116,15 +191,23 @@ public class Movie {
 			"id='" + id + '\'' +
 			", name='" + name + '\'' +
 			", picture_id='" + picture_id + '\'' +
+			", picture=" + picture +
+			", pictureList=" + pictureList +
 			", flag=" + flag +
 			", disable=" + disable +
 			", type_id='" + type_id + '\'' +
+			", type=" + type +
+			", typeList=" + typeList +
 			", area_id='" + area_id + '\'' +
+			", area=" + area +
 			", years_id='" + years_id + '\'' +
+			", year=" + year +
 			", credits_id='" + credits_id + '\'' +
+			", credits=" + credits +
 			", create_time='" + create_time + '\'' +
 			", score=" + score +
 			", comment='" + comment + '\'' +
+			", duration='" + duration + '\'' +
 			'}';
   }
 }

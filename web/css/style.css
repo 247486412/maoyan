@@ -301,7 +301,8 @@ a{
 }
 .head .top .log_in span{
 	position: relative;
-	top: -14px;
+	top: -22px;
+	left: 30px;
 }
 .head .top .log_in section{
     width: 80px;
